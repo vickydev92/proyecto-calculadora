@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(255, 231, 164) !important;
+    padding:  5rem 7rem; 
+}
+@media (max-width=780px) {
+    body{
+        background-color: rgb(255, 231, 164) !important;
+        padding:  1rem 4rem; 
+    }
+    
+}
