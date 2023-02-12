@@ -1,7 +1,19 @@
 .pantalla{
     background-color: aliceblue;
-    margin: 2rem;
+    
     border-radius: 5px;
     height: 3rem;
     border: solid 2px #e3e3e4de;
+
+    user-select: none;
+
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Lato',sans-serif;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5px;
+
 }

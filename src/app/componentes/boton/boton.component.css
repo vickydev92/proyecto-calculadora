@@ -1,0 +1,42 @@
+.boton{
+    background-color: rgb(189, 138, 236);
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Lato,sans-serif;
+    margin: 4px;
+    
+
+
+    height: 50px;
+    width: 50px;
+
+    border:1px solid white;
+    border-radius: 15px;
+
+    display: grid;
+    place-items: center;
+
+    cursor: pointer;
+    user-select: none;
+
+}
+.boton:hover{
+    background-color: rgb(152, 219, 219);
+}
+
+.operador{
+    background-color: rgb(224, 223, 156);
+    color: black;
+}
+.operador:hover{
+    background-color:  rgb(152, 219, 219) ;
+}
+
+.clear{
+    background-color: rgb(224, 162, 172);
+    color: black;
+}
+.clear:hover{
+    background-color:  rgb(152, 219, 219) ;
+}

@@ -1,6 +1,13 @@
 .card{
-    width: 20rem; height: 70vh;
+    height: 100%;
     background-color: rgba(183, 131, 231, 0.856);
     border: solid 4px rgb(241, 240, 240);
     border-radius: 25px;
+    padding: 1.5rem
+}
+
+.fila{
+    display: flex;
+    justify-content: center;
+    
 }
