@@ -1,9 +1,10 @@
 .pantalla{
-    background-color: aliceblue;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 1px 2px 5px rgba(54, 54, 54, 0.705);
     
-    border-radius: 5px;
+    border-radius: 8px;
     height: 3rem;
-    border: solid 2px #e3e3e4de;
+    border: solid 2px #47474779;
 
     user-select: none;
 
@@ -12,7 +13,7 @@
     font-family: 'Lato',sans-serif;
 
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     padding: 5px;
 

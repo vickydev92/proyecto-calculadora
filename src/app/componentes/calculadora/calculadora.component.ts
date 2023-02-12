@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { evaluate } from 'mathjs';
 
 @Component({
   selector: 'app-calculadora',
@@ -12,7 +11,7 @@ export class CalculadoraComponent {
 agregarExpresion(valor:string){
   if(valor === "="){
     console.log("calculando");
-    this.expresion= evaluate(this.expresion);
+    this.expresion= eval(this.expresion);
   }
   else{
     if(this.expresion === "0"){
