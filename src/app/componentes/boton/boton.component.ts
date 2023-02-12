@@ -14,7 +14,7 @@ handlerClick(){
 }
 
 soyOperador(valor:string){
-  return valor==="+" || valor==="-" || valor==="="||valor==="/"||valor==="x"||valor==="("||valor===")"
+  return valor==="+" || valor==="-" || valor==="="||valor==="/"||valor==="*"||valor==="("||valor===")"
 }
 soyClear(valor:string){
   return valor==="C"
