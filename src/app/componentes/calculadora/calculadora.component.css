@@ -3,6 +3,7 @@
     background-color: rgba(183, 131, 231, 0.856);
     border: solid 4px rgb(241, 240, 240);
     border-radius: 25px;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0,0.19), 0px 6px 6px rgb(0, 0, 0,0.23);
     padding: 1.5rem
 }
 
